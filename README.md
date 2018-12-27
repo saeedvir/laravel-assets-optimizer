@@ -4,7 +4,13 @@ This package is used to manage css and javascript files in Laravel projects. You
 <div lang="fa" dir="rtl">
 ## توضیحات فارسی
 
-...
+با استفاده از این پکیج می توانید فایل های css و Javascript را با هم ترکیب کنید.
+این کار در افزایش سرعت بارگزاری صفحات تاثیر زیادی دارد.
+
+در این روش نیازی به استفاده و نصب node js نیست.
+
+البته استفاده از روش زیر در لاراول توصیه میشود
+[laravel webpack](https://laravel.com/docs/5.7/mix)
 
 </div>
 
