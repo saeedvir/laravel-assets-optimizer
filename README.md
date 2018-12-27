@@ -125,6 +125,9 @@ For Help :
 php artisan assets:optimize help
 ```
 
+## ToDO List
+.add javascript obfuscator
+.add html minify
 ## Security
 
 If you discover any security related issues, please email [saeed.es91@gmail.com](mailto:saeed.es91@gmail.com) instead of using the issue tracker.
