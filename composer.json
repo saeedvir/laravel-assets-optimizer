@@ -1,0 +1,36 @@
+{
+    "name": "saeedvir/laravel-assets-optimizer",
+    "description": "Merge css and javascripts files and optimize them in laravel projects without node js",
+    "keywords": [
+        "assets",
+        "optimizer",
+        "assets optimizer",
+        "laravel assets optimizer",
+        "project",
+        "laravel"
+      ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saeed",
+            "email": "saeed.es91@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/saeedvir/laravel-assets-optimizer",
+    "require": {
+        "php": "^7.0",
+        "matthiasmullie/minify": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelAssetsOptimizer\\": "src/"
+        }
+    },
+      "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelAssetsOptimizer\\LaravelAssetsOptimizerServiceProvider"
+            ]
+        }
+    }
+}
