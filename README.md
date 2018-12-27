@@ -2,6 +2,7 @@
 This package is used to manage css and javascript files in Laravel projects. You can combine them together without using node js. You can also optimize the created files.
 
 <div lang="fa" dir="rtl">
+
 ## توضیحات فارسی
 
 با استفاده از این پکیج می توانید فایل های css و Javascript را با هم ترکیب کنید.
