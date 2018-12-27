@@ -44,7 +44,7 @@ class LaravelAssetsOptimizerCommand extends Command {
          */
 
         if ($this->argument('options') == 'help'){
-            echo 'help';
+            echo 'please visit the homepage : '."\r\n"."https://github.com/saeedvir/laravel-assets-optimizer"."\r\n";
             return true;
         }
 
