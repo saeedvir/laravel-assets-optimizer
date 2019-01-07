@@ -129,6 +129,12 @@ php artisan assets:optimize help
 - add javascript obfuscator
 
 - add html minify
+
+## Other Packages
+
+- [Laravel Project Ghost](https://github.com/saeedvir/projectGhost)
+- [Laravel Mysql Backup](https://github.com/saeedvir/laravel-mysql-backup)
+
 ## Security
 
 If you discover any security related issues, please email [saeed.es91@gmail.com](mailto:saeed.es91@gmail.com) instead of using the issue tracker.
