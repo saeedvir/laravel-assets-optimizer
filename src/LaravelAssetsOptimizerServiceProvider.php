@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class LaravelAssetsOptimizerServiceProvider extends ServiceProvider
 {
-	protected $commands = [
+    protected $commands = [
         LaravelAssetsOptimizerCommand::class,
     ];
 
@@ -21,7 +21,6 @@ class LaravelAssetsOptimizerServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__.'/../config/assets.php', 'assets');
 
-		$this->commands($this->commands);
-
+        $this->commands($this->commands);
     }
 }
